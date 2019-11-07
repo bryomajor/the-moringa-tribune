@@ -26,9 +26,8 @@ def past_days_news(request, past_date):
         return redirect(news_today)
 
     news = Article.days_news(date)
-    past_news = Article.objects.all()
 
-    return render(request, 'all-news/past-news.html', {"date": date, "news":news, "past_news":past_news,})
+    return render(request, 'all-news/past-news.html', {"date": date, "news":news})
 
 
 def search_results(request):
