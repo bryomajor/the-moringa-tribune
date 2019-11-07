@@ -1,0 +1,46 @@
+h1 {
+    color: white;
+}
+
+h2, p {
+    color: black;
+    margin-left: 5%;
+}
+
+h2:hover, p:hover {
+    color: blue;
+}
+
+.bg {
+    background-color: black;
+    padding: 2%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.pad {
+    padding: 8%;
+}
+
+.margin {
+    margin-top: 5%;
+}
+
+.bottom {
+    margin-bottom: 5%;
+}
+
+.masthead {
+    background-color: black;
+    padding: 5%;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
